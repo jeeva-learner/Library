@@ -32,6 +32,6 @@ git clone https://github.com/jeeva-learner/library-management-system.git
 ## Contribution:
 Contributions are Welcome please Fork the Repository and submit Pull Request.
 ## License
-This Project is licensed under [MIT LICENSE]
+This Project is licensed under [MIT LICENSE](./LICENSE)
 ---
 [^1]: Currently This project doesn't have any user Authentication or Better Space Management, In the Future the project aims to address these along with providing Edit option for the Cards present in the Library.
