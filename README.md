@@ -19,7 +19,7 @@ This project is a simple Library Management system implementd using HTML, CSS, J
 ## Installation:
 1. Clone the repository
 ```bash 
-git clone https://github.com/your-username/library-management-system.git
+git clone https://github.com/jeeva-learner/library-management-system.git
 ```
 2. Open the index.html file in your web browser.
 
