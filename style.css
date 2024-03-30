@@ -1,0 +1,97 @@
+:root{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+input[type="number"]:invalid{
+    outline-color: red;
+}
+.nav_bar{
+    padding-top: 1rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .6);
+    position: relative;
+    text-align: center;
+    height: 2rem;
+    border-radius: 0 0 .5rem .5rem;
+}
+#add_book{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: .5rem;
+}
+#add_book img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.book_shelf{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,16.25rem));
+    gap: 3rem;
+    padding: 1.5rem 2rem;
+    background-color: rgb(212 212 212);
+    grid-auto-flow: row;
+}
+#book_info{
+    height: 18rem;
+    border-radius: 1.5rem;
+}
+#main_dialog{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.info,.pages{
+    text-align: right;
+}
+.status{
+    text-align: center;
+}
+.button_controls{
+    display: flex;
+    justify-content: space-around;
+}
+.Cancel,.submit{
+    font-family: Lato,Arial, Helvetica, sans-serif;
+    height: 2rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(217 70 239);
+    border-radius: 1.5rem;
+    padding: 0.8rem;
+    columns: white;
+}
+.card_name, .card_author, .card_page{
+    display: flex;
+    gap: 0.5rem;
+    text-align: right;
+    justify-content: space-between;
+}
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.remove{
+    height: 1.8rem;
+    width: 3rem;
+    background-color: rgb(252, 9, 9);
+    text-align: center;
+    border-radius: 1.2rem;
+    box-shadow: 0rem 0rem 0.2rem black;
+}
+.card_status{
+    height: 1.5rem;
+    width: 6rem;
+    text-align: center;
+    box-shadow: 0rem 0rem 0.2rem black;
+    border-radius: 1.8rem;
+    cursor: pointer;
+}

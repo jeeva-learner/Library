@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
+    <link rel="stylesheet" href="./reset.css" type="text/css">
     <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./font_style.css" type="text/css">
     <script src="./source.js" defer></script>
 </head>
 <body>
     <div class="outer_body">
-        <div class="tool_bar"></div>
-        <div class="book_area"></div>
+        <div class="nav_bar">
+            <button type="button" title="Add-Book" id="add_book"><img src="./assets/plus-custom.png" alt="plus icon"></button>
+            <dialog id="book_info">
+                <form action="#" method="post" id="main_dialog">
+                    <div class="info">
+                        <label for="title">Title</label>
+                        <input type="text" id="title" name="book_name" maxlength="20" required>
+                    </div>
+                    <div class="info">
+                        <label for="author">Author</label>
+                        <input type="text" id="author" name="book_author" maxlength="20" required>
+                    </div>      
+                    <div class="pages">
+                        <label for="pages">Total No of Pages</label>
+                        <input type="number" id="pages" name="page_no" max="2500">
+                    </div> 
+                    <div class="status">
+                        <label for="status"> Completed Reading </label>
+                        <input type="checkbox" id="status" name="read_status" checked>
+                    </div>                                    
+                </form>
+                <div class="button_controls">
+                    <button type="button" class="Cancel" form="main_dialog"> Cancel </button>
+                    <button type="submit" class="submit" form="main_dialog"> Submit </button>
+                </div>
+            </dialog>    
+        </div>
+        <div class="book_shelf"></div>
     </div>
 </body>
 </html>
