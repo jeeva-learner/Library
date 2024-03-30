@@ -24,10 +24,14 @@ git clone https://github.com/jeeva-learner/library-management-system.git
 2. Open the index.html file in your web browser.
 
 ## Preview
-[Live Preview](https://jeeva-learner.github.io/Library/)
+>![Dialogbox](./assets/Readme_asset/Dialogbox.png)
+> <br>
+>![Library](./assets/Readme_asset/Library.png)
+
+## [Live Preview](https://jeeva-learner.github.io/Library/)
 ## Contribution:
 Contributions are Welcome please Fork the Repository and submit Pull Request.
 ## License
-This Project is licensed under [MIT License](https://opensource.org/license/mit)
+This Project is licensed under [MIT LICENSE]
 ---
 [^1]: Currently This project doesn't have any user Authentication or Better Space Management, In the Future the project aims to address these along with providing Edit option for the Cards present in the Library.
