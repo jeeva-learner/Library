@@ -26,7 +26,8 @@ input[type="number"]:invalid{
 }
 .book_shelf{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px,16.25rem));
     gap: 3rem;
@@ -68,6 +69,7 @@ input[type="number"]:invalid{
     border-radius: 1.5rem;
     padding: 0.8rem;
     columns: white;
+    box-shadow: 0 0 0.4rem black;
 }
 .card_name, .card_author, .card_page{
     display: flex;
